@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class HelloController {
 	
 	@GetMapping("/hello")
-	public Stri sayHello() {
+	public String sayHello() {
 		return "Hello programmer!";
 	}
 }
