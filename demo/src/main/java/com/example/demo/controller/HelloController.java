@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @RestController
-public class HelloController {
+public clas HelloController {
 	
 	@GetMapping("/hello")
 	public Stng sayHello() {
